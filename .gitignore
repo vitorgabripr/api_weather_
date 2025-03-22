@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Build output (gerado pelo tsc)
+dist/
+build/
+.cache/
+.parcel-cache
+
+# Arquivos compilados do TypeScript (se algum .js for gerado na raiz, por segurança)
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Cobertura de testes
+coverage/
+*.lcov
+.nyc_output/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# VSCode settings (se quiser ignorar configs da IDE)
+.vscode/
+
+# Output do npm pack
+*.tgz
+
+# Arquivos do Yarn 2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Histórico do Node REPL
+.node_repl_history
