@@ -12,7 +12,11 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
+    "express": "^5.1.0",
     "nodemon": "^3.1.9",
     "openmeteo": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
   }
 }
